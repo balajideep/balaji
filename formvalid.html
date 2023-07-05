@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./formvalid.css">
+    <script src="./formcorrectvalid.js"></script>
+    
+</head>
+<body> 
+    <div class="container">
+    <div class="kkk">
+    <h1>REGISTRATION FOR ADMISSION</h1>
+         <div class="write">
+          <div class="ppp">  
+              <label for="name">NAME</label>
+              <input id="name" type="text"> 
+              <p id="p1" style="color: red;"></p>
+           </div> <br>
+           <div class="ppp">  
+            <label for="date">DATE</label>
+            <input id="date1" type="date"> 
+            <p id="p8" style="color: red;"></p>
+         </div> <br>
+           <div class="ppp">
+               <label for="mobile number">MOBILE NUMBER</label> 
+               <input id="mobile number" type="number">
+               <p id="p2" style="color: red;"> </p>
+           </div><br><br>
+           <div class="ppp">
+                <label for="email id">MAIL ID</label>
+                <input id="mail id"type="text">
+                <p id="p3" style="color: red;"></p> 
+            </div> <br><br>
+            <div class="ppp">
+                 <label for="PASSWORD">PASSWORD</label>
+                <input id="password"type="text">
+                <p id="p4" style="color: red;"></p>  
+            </div><br><br>
+            <div class="ppp">
+                <label for="confirm password">CONFIRM PASSWORD</label>
+                <input id="confirm password"type="text"> 
+                <p id="p5" style="color:red;"></p>
+            </div><br><br>
+            <div class="new">
+                <label for="languages">GENDER</label><br></br>
+                <input type="radio" name="gender" id="male">MALE <br></br>
+                <input type="radio" name="gender" id="female">FEMALE
+                <p id="p7" style="color:red;"></p>
+                </div><br><br>
+            <div class="new">
+            <label for="languages">LANGUAGES KNOWN</label><br>
+            <input type="checkbox" name="language" id="tamil">tamil <br>
+            
+            <input type="checkbox" name="language" id="english">english <br>
+            <input type="checkbox" name="language" id="hindi">hindi <br>
+            <input type="checkbox" name="language" id="malayalam">malayalam
+            
+             <p id="p6" style="color:red;"></p>
+            
+            
+            <div class="read ">
+            <button id="submit" onclick=" return validate()">submit</button>
+           </div>
+            </div></div>
+        
+    </div></div>
+
+
+</body>
+</html>

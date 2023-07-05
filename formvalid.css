@@ -1,0 +1,41 @@
+.container{
+    background-color:burlywood;
+    height: 1000px;
+    width: 40%;
+    margin: 0 auto;
+}
+h1{
+    font-size: 30px;
+    text-align: center;
+    padding-top: 20px;
+   
+}
+.kkk{
+    
+    background-color: burlywood;
+    height: 650px;
+    width: 80%;
+    margin: 0 auto;    
+}
+.new{
+    width: 45%;
+   
+}
+.read button{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: blue;
+    
+}
+.read{
+   padding-left: 150px;
+   padding-top: 20px;
+  
+}
+label{
+    width: 50%;
+}
+input{
+    width: 50%;
+}
